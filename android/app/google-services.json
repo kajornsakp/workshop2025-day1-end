@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296123869992",
+    "project_id": "workshop2025",
+    "storage_bucket": "workshop2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296123869992:android:0dcc8caad9f16be9557e1d",
+        "android_client_info": {
+          "package_name": "com.example.chopee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjqhRTeN-VdFDs_Jse_Nkv0OSEf7BF02s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
