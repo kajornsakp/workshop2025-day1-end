@@ -100,13 +100,8 @@ class _CartPageState extends State<CartPage> {
                     children: [
                       IconButton(
                         onPressed: () {
-                          if (item.quantity > 1) {
-                            context.read<CartBloc>().add(
+                          context.read<CartBloc>().add(
                                 CartItemUpdated(item.productId, item.quantity - 1));
-                          } else {
-                            context.read<CartBloc>().add(
-                                CartItemRemoved(item.productId));
-                          }
                         },
                         icon: const Icon(Icons.remove),
                       ),
